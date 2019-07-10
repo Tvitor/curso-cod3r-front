@@ -1,0 +1,81 @@
+html body{
+    margin: 0px;
+    padding:0px;
+    
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(204, 204, 204), rgb(185, 185, 185) );
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* .header-wrapper{
+    
+    
+} */
+
+.content{
+width: 58%;
+
+}
+
+/* thead th{
+    border-bottom-style: groove;
+    background-image: linear-gradient(to right, rgb(29, 29, 29), rgb(5, 5, 5));
+    color: rgb(255, 255, 255);
+    
+} */
+
+.title{
+    display: grid;
+    grid-template-columns: 2fr;
+    left: 60%;
+position: relative;
+background-image: linear-gradient(to right, rgb(54, 54, 54), rgb(53, 53, 53));
+
+border-bottom: 5px;
+border-bottom-color: rgb(79, 177, 223);
+border-bottom-style: inset;
+}
+
+.columns{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
+    left: 60%;
+position: relative;
+}
+
+.grid{
+    width: 52%;
+    text-align: center;
+    height: 90px;
+}
+
+.gridColumns{
+    width: 52%;
+    height:700px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.col1{
+    border-right-style: outset;
+    border-right-color: rgb(253, 253, 253);
+    text-decoration:none; 
+}
+
+.exeCss{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+
+}
+
+a{
+    color: inherit;
+}
+
+.tag{
+    font-weight: bold;
+}
